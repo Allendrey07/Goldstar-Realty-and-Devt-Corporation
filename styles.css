@@ -2086,7 +2086,7 @@ font-style: italic;
   font-size:2rem;
 }
 #header>p{
-  text-align:center;
+  text-align:justify;
   font-size:1.5rem;
   font-style:italic;
 }
@@ -2118,16 +2118,18 @@ font-style: italic;
   border: white solid;
   border-width: 2px;
 }
-.card-text{
-  margin:-1em auto;
-  margin-bottom:-50px;
-  height:10em;
-  width:20em;
-  background-color:rgb(10, 150, 10);
-  color:FDFDFD;
-  padding:20px;
+.card-text {
+  margin: -1em auto;
+  height: auto;
+  width: 20em;
+  background-color: rgb(10, 150, 10);
+  color: #fdfdfd;
+  padding: 20px;
   border-radius: 10px;
+  overflow: hidden; /* Add this line */
+  text-align: justify;
 }
+
 .card-event-type{
   font-style:italic;
   color:#FDFDFD;
@@ -2146,7 +2148,7 @@ font-style: italic;
 
 @media (max-width: 700px) {
   .card .card-image {
-    width: 90%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     height: auto; /* Set height to auto to maintain aspect ratio */
     justify-content: center;
     text-align: center;
