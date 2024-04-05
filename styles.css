@@ -589,7 +589,7 @@ p {
     color: whitesmoke;
     text-align: center;
     margin: 2rem 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .faqs .accordion {
@@ -608,7 +608,7 @@ p {
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     align-items: center;
     position: relative;
@@ -628,7 +628,7 @@ p {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-weight: 300;
+    font-weight: 200;
     margin-left: 20px;
   }
   .faqs .accordion-item-body-content {
@@ -639,8 +639,12 @@ p {
     margin-left: 20px;
   }
   @media(max-width:700px) {
-    html {
-      font-size: 1rem;
+    .faqs .accordion-item-body-content {
+      font-size: .8rem;
+      font-weight: 200;
+    }
+    .faqs .accordion-item-header::after {
+      font-size: .6rem;
     }
   }
 
@@ -731,6 +735,9 @@ footer{
     margin-bottom: 20px;
     position: relative;
   }
+  .col1 p{
+    font-size: 1rem;
+  }
   .email-id{
     width: fit-content;
     border-bottom: 1px solid #ccc;
@@ -814,8 +821,8 @@ footer{
     }
     #tagline {
       font-weight: 400;
-      text-align:  center!important;
-      font-size: 1rem;
+      text-align:  left;
+      font-size: .8rem;
       margin-bottom: 0px;
   }
 
@@ -1922,8 +1929,7 @@ font-style: italic;
   flex: 1;
 }
 .sub2 p {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 1rem;
   text-indent: 3rem;
 }
 
