@@ -406,6 +406,12 @@ p {
     .offer{
         width: 90%;      
     }
+    h1 {
+      font-size: 1.5rem;
+    } 
+    p {
+      font-size: .9rem;
+    }
 
 }
 /*-------projects and designs-------*/
@@ -764,13 +770,15 @@ footer{
     cursor: pointer;
   }
   hr{
-    width: 90%;
+    width: 85%;
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 20px auto;
   }
   .copyright{
     text-align: center;
+    font-size: .8rem;
+    margin-bottom: 1rem;
   }
   .underline{
     width: 100%;
@@ -824,7 +832,7 @@ footer{
       text-align:  left;
       font-size: .8rem;
       margin-bottom: 0px;
-  }
+    }
 
   }
 
