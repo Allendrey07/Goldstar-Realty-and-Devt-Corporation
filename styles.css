@@ -926,7 +926,7 @@ footer{
     text-align: justify;
     font-size: 1rem;
 }
-.offer-col:hover{
+.offer-col1:hover{
     box-shadow: 0 0 20px 0px rgba(7, 7, 7, 0.2);
 }
 .offer-col1 .icon i {
