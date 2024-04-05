@@ -1009,7 +1009,7 @@ footer{
   position: absolute;
   color: #eee;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1em;
   top: 50%;
   transform: translateY(-50%);
   transition: all .3s ease-in-out;
@@ -1039,8 +1039,8 @@ footer{
 .testim .dots .dot{
   list-style-type: none;
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: .5rem;
+  height: .5rem;
   border-radius: 50%;
   border: 1px solid #eee;
   margin: 0 10px;
@@ -1062,7 +1062,7 @@ border-color: #3cae08
   overflow: hidden;
 }
 .testim .cont > div{
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 0;
   left: 0;
@@ -1077,20 +1077,23 @@ border-color: #3cae08
   opacity: 1;
   
 }
-.testim .cont div .img img{
+.testim .cont div .img img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 4rem;
+  height: 4rem;
   margin: auto;
   border-radius: 50%;
+  border: 3px solid rgb(249, 228, 228); /* Adjust border thickness and color as needed */
 }
+
 .testim .cont div h2{
-  color:  rgb(10, 150, 10);
-  font-size: 1em;
+  color: #3CAE08;
+  font-size: .8em;
   margin: 15px 0;
+  font-weight: 500;
 }
 .testim .cont div p{
-  font-size: 1.15em;
+  font-size: .9em;
   color: #eee;
   width: 80%;
   margin: auto;
