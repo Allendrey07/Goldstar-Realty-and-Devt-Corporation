@@ -2085,6 +2085,11 @@ font-style: italic;
   .contact-right textarea {
     width: 21em;
   }
+  .sub-content:nth-child(2) iframe {
+    width: 100%; /* Ensure iframe takes 90% width */
+    height: 50vh;
+    border-radius: 10px;
+  }
 }
 @media (max-width: 1000px) {
   .sub-contact-inputs {
