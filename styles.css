@@ -393,10 +393,9 @@ p {
   box-shadow: 0 0 20px 0px rgba(1, 0, 0, 0.2);
 }
 
-.offer-col .icon i {
-  font-size: 50px; /* Adjust the size of the icon as needed */
-  color: white; /* Set the color of the icon to white */
-  border-radius: 50%;
+.offer-col .icon img {
+  width: 9em;
+  margin-bottom:-25px;
 }
 
 @media(max-width: 700px){
@@ -412,7 +411,6 @@ p {
     p {
       font-size: .9rem;
     }
-
 }
 /*-------projects and designs-------*/
 .slide h1,
@@ -621,6 +619,7 @@ p {
     cursor: pointer;
   }
   .faqs .accordion-item-header::after {
+    font-family: 'Font Awesome';
     content: "\2B9F";
     font-size: 1rem;
     position: absolute;
@@ -932,7 +931,6 @@ footer{
     background: rgb(10, 150, 10);
     border-radius: 10px;
     margin-bottom: 5%;
-
     padding: 2em 2em;
     box-sizing: border-box;
     transition: 0.5s;
@@ -1247,7 +1245,6 @@ border-color: #3cae08
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-
 }
 .team-content{
 	width: 100%;
@@ -1302,6 +1299,11 @@ border-color: #3cae08
 	cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .team .icons i{
+    font-size: .7rem;
+  }
+}
 @media (max-width: 1200px) {
   .team {
       width: 100%;
