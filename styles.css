@@ -450,7 +450,6 @@ text-align: left;
   overflow: hidden;
   opacity: 39%;
   transition: .5s;
-  border-radius: 10px;
 }
 .slider .list .item img{
   width: 100%;
@@ -2172,8 +2171,7 @@ color:#FDFDFD;
 font-size:1.5rem;
 margin-bottom:20px;
 margin-top:5px;
-font-family: "Satisfy", cursive;
-font-weight: 100;
+font-weight: 300;
 color: #FDFDFD;
 }
 .card-body{
