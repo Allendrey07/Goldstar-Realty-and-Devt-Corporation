@@ -858,13 +858,15 @@ text-align: center;
   margin: auto;
   padding-top: 80px;
   padding-bottom: 50px;
+
 }
 .about-col{
   flex-basis: 48%;
   margin-bottom: 3%;
+  margin-top: 100px;
 }
 .about-col img{
-    max-width: 40em;
+  max-width: 40em;
   float: left;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -956,6 +958,9 @@ text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
 @media (max-width: 600px) {
 .about-col h1{
   font-size: 25px;
+}
+.about-col{
+  margin-top: 50px;
 }
 .about-col p{
   font-size: 12px;
